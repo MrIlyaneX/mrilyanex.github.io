@@ -31,23 +31,18 @@
           <span id="leftContact"  v-show="show"><a href="/reg.html" title="Зарегестрироваться" onclick="heyReg()">Регистрация</a></span>
           <span id="leftContact"  v-show="show"><a href="/comein.html" title="Вход">Войти</a></span>
     </div>
-    <div v-show="!show" id="ClosedBlock"></div>
-    <button style="color: red; background-color: #151a23; border-color: black; z-index: 1000; position: fixed; margin-left: 7px;"
-    @click="show = !show"><big> скрыть </big></button>
-  </div>
-</template>
-<style>
-#ClosedBlock {
-    background: #151a23;
+    <div v-show="!show" style="background: #151a23;
     color: #fff;
     position: fixed;
     width: 70px;
     top: 0;
     bottom: 0;
     z-index: 1000;
-    left: 0;
-}
-</style>
+    left: 0;"></div>
+    <button style="color: red; background-color: #151a23; border-color: black; z-index: 1000; position: fixed; margin-left: 7px;"
+    @click="show = !show"><big> скрыть </big></button>
+  </div>
+</template>
 
  </script>
 
