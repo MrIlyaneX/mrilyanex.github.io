@@ -101,8 +101,6 @@ header {
 }
 
 #left_block {
-    position: fixed;
-    top: 0;
     bottom: 0;
     z-index: 1000;
     left: 0;
